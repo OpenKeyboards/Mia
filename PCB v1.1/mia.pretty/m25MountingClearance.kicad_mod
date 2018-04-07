@@ -1,0 +1,9 @@
+(module myparts:m25MountingClearance (layer F.Cu) (tedit 5ABDD258)
+  (fp_text reference P41 (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value CONN_01X01 (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 5 5) (drill 5) (layers *.Cu *.Mask))
+)

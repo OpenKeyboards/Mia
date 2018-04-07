@@ -1,0 +1,16 @@
+(module myparts:SW_SOCKET_COMBINED_T (layer F.Cu) (tedit 5AB8A6A8)
+  (descr MXALPS)
+  (tags MXALPS)
+  (fp_text reference S94 (at 0.05 3.59) (layer B.SilkS) hide
+    (effects (font (size 0.9 0.9) (thickness 0.2)) (justify mirror))
+  )
+  (fp_text value SW (at 0.11 5.73) (layer B.SilkS) hide
+    (effects (font (thickness 0.3048)) (justify mirror))
+  )
+  (pad 3 thru_hole circle (at 0 0) (size 4.5 4.5) (drill 3.9) (layers *.Cu)
+    (clearance 0.1397) (zone_connect 2))
+  (pad 1 thru_hole circle (at -3.81 -2.54) (size 2 2) (drill 1.5) (layers *.Cu *.Mask)
+    (clearance 0.1397))
+  (pad 2 thru_hole circle (at 2.54 -5.08) (size 2 2) (drill 1.5) (layers *.Cu *.Mask)
+    (clearance 0.1397))
+)
